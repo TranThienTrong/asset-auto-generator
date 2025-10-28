@@ -393,10 +393,10 @@ async def get_3d_png_asset(
         raise RuntimeError("Failed to download PNG asset") from exc
 
 
-async def main():
-    logging.basicConfig(level="INFO")
-    # Create an MCP server
-    await mcp.run_streamable_http_async()
-
-if __name__ == "__main__":
-    asyncio.run(main())
+# async def main():
+#     logging.basicConfig(level="INFO")
+#     # Create an MCP server
+#     await mcp.run_streamable_http_async()
+#
+# if __name__ == "__main__":
+#     asyncio.run(main())
