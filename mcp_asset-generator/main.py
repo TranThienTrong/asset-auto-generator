@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
 # Initialize FastMCP server
-mcp = FastMCP("asset-auto-generator")
+mcp = FastMCP("AssetGenerator")
 
 
 # Static remote repository configuration
@@ -185,7 +185,7 @@ def _filter_cached_pngs_by_directories(
 def _fetch_github_blob(url: str, github_token: str | None) -> bytes:
     headers = {
         "Accept": "application/vnd.github.raw",
-        "User-Agent": "asset-auto-generator/0.1",
+        "User-Agent": "asset_auto_generator/0.1",
     }
 
     if github_token:
