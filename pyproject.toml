@@ -1,0 +1,10 @@
+[project]
+name = "asset-auto-generator"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "colorama>=0.4.6",
+    "mcp==1.19.0",
+    "rapidfuzz>=3.14.1",
+]
