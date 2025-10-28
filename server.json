@@ -1,29 +1,16 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
-  "name": "io.github.YOUR_USERNAME/YOUR_REPO",
-  "description": "An MCP server that provides [describe what your server does]",
+  "name": "io.github.TranThienTrong/asset-auto-generator",
+  "description": "An MCP server that provides asset auto generator",
   "repository": {
-    "url": "https://github.com/YOUR_USERNAME/YOUR_REPO",
+    "url": "https://github.com/TranThienTrong/asset-auto-generator.git",
     "source": "github"
   },
   "version": "1.0.0",
-  "packages": [
+  "remotes": [
     {
-      "registryType": "pypi",
-      "identifier": "asset-auto-generator",
-      "version": "1.0.0",
-      "transport": {
-        "type": "stdio"
-      },
-      "environmentVariables": [
-        {
-          "description": "Your API key for the service",
-          "isRequired": true,
-          "format": "string",
-          "isSecret": true,
-          "name": "YOUR_API_KEY"
-        }
-      ]
+      "type": "streamable-http",
+      "url": "https://TranThienTrong.github.io/mcp/asset-auto-generator"
     }
   ]
 }
