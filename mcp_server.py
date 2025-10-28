@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
 # Initialize FastMCP server
-mcp = FastMCP("assetAutoGenerator")
+mcp = FastMCP("asset-auto-generator")
 
 
 # Static remote repository configuration
